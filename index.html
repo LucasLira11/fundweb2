@@ -3,48 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Vida do Lucas</title>
+    <title>Diagramação 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Aula Fundamentos Web</h1>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fa fa-cog"></i>
+                <span>Cerulean</span>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section class="post">
-            <div class="imagem-container">
-                <img src="lucas1.png" alt="Foto de Lucas 1">
-                <div class="descricao">
-                    <h2>Estou testando usar o GitHub para o meu site</h2>
-                    <p>teste...</p>
-                </div>
-            </div>
-        </section>
+    <nav class="nav">
+        <div class="container">
+            <ul>
+                <li><a href="#">Homepage</a></li>
+                <li><a href="#">Our Clients</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <section class="post">
-            <div class="imagem-container">
-                <img src="lucas2.jpg" alt="Foto de Lucas 2">
-                <div class="descricao">
-                    <h2>Estou testando usar o GitHub para o meu site</h2>
-                    <p>teste...</p>
-                </div>
-            </div>
-        </section>
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to our website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ducimus molestiae repellendus mollitia quo sit expedita!</p>
+        </div>
+    </section>
 
-        <section class="post">
-            <div class="imagem-container">
-                <img src="lucas3.jpg" alt="Foto de Lucas 3">
-                <div class="descricao">
-                    <h2>Estou testando usar o GitHub para o meu site</h2>
-                    <p>teste...</p>
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature">
+                    <h2>Maecenas luctus</h2>
+                    <p>Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="feature">
+                    <h2>Integer gravida</h2>
+                    <p>Proin eu wisi suscipit nulla suscipit interdum. Nullam non wisi a sem semper eleifend.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="feature">
+                    <h2>Praesent mauris</h2>
+                    <p>Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla.</p>
+                    <a href="#" class="btn">Learn More</a>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section class="galeria">
+        <div class="container">
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="scr01.jpg" alt="foto 1">
+                    <h3>Vestibulum venenatis</h3>
+                    <p>Fermentum nibh augue praesent a lacus at urna congue rutrum.</p>
+                    <a href="#" class="btn">Etiam posuere</a>
+                </div>
+                <div class="galeria-item">
+                    <img src="scr02.jpg" alt="foto 2">
+                    <h3>Praesent scelerisque</h3>
+                    <p>Vivamus fermentum nibh in augue praesent urna congue rutrum.</p>
+                    <a href="#" class="btn">Etiam posuere</a>
+                </div>
+                <div class="galeria-item">
+                    <img src="scr03.jpg" alt="foto 3">
+                    <h3>Donec dictum metus</h3>
+                    <p>Vivamus fermentum nibh in augue praesent urna congue rutrum.</p>
+                    <a href="#" class="btn">Etiam posuere</a>
+                </div>
+                <div class="galeria-item">
+                    <img src="scr04.jpg" alt="foto 4">
+                    <h3>Mauris vulputate dolor</h3>
+                    <p>Rutrum fermentum nibh in augue praesent urna congue rutrum.</p>
+                    <a href="#" class="btn">Etiam posuere</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="icones-section">
+        <div class="container">
+            <h2>Vivamus fermentum nibh</h2>
+            <div class="icones-grid">
+                <div class="icone-item"><i class="fa fa-gavel"></i></div>
+                <div class="icone-item"><i class="fa fa-random"></i></div>
+                <div class="icone-item"><i class="fa fa-search"></i></div>
+                <div class="icone-item"><i class="fa fa-wrench"></i></div>
+                <div class="icone-item"><i class="fa fa-scissors"></i></div>
+                <div class="icone-item"><i class="fa fa-filter"></i></div>
+                <div class="icone-item"><i class="fa fa-lock"></i></div>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>Obrigado por visitar o meu site para testes!</p>
+        <div class="container">
+            <p>© Untitled. All rights reserved. Feito por Lucas Pontes Lira. Diagramação 2</p>
+            <div class="social-links">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+                <a href="#"><i class="fa fa-rss"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
